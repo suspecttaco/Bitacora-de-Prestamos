@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios</title>
+</head>
+<body>
+    <h1>Registro de usuarios</h1>
+    <br>
+    <table border="1" width="100%">
+        <thead>
+            <th>
+                Formulario
+            </th>
+            <th>
+                Usuarios registrados
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <form action="submit">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name">
+                        <br>
+                        <label for="tipo">Tipo:</label>
+                        <input type="radio" name="tipo" id="prof">
+                        <label for="prof">Profesor</label>
+                        <input type="radio" name="tipo" id="alum">
+                        <label for="alum">Alumno</label>
+                        <br>
+                        <label for="carrera">Carrera:</label>
+                        <select name="carrera" id="carrera">
+                            <option value="">Carrera 1</option>
+                        </select>
+
+                        <label for="grupo">Grupo:</label>
+                        <select name="grupo" id="grupo">
+                            <option value="302">302</option>
+                        </select>
+                        <br>
+                        <label for="tel">Telefono:</label>
+                        <input type="tel" name="tel" id="tel">
+                        <br>
+                        <br>
+                        <input type="button" value="Guardar">
+                        <input type="button" value="Eliminar">
+                    </form>
+                </td>
+                <td>
+                    <select name="usuarios" id="usuarios">
+                        <option value="">usuario 1</option>
+                        <option value="">usuario 2</option>
+                        <option value="">usuario 3</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+    <a href="index.html">Volver al Menu</a>
+</body>
+</html>

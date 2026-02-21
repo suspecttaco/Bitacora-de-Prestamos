@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo</title>
+</head>
+<body>
+    <h1>Registro de Equipo</h1>
+    <table border="1" width="100%">
+        <thead>
+            <th>
+                Informacion
+            </th>
+            <th>
+                Equipo registrado
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <form action="submit">
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" id="name">
+                        <br>
+                        <label for="tipo">Tipo:</label>
+                        <select name="tipo" id="tipo">
+                            <option value="proyector">Proyector</option>
+                            <option value="laptop">Laptop</option>
+                            <option value="modem">Modem</option>
+                        </select>
+                        <br>
+                        <label for="desc">Descripcion:</label>
+                        <input type="text" name="desc" id="desc">
+                        <br>
+                        <br>
+                        <input type="button" value="Guardar">
+                        <input type="button" value="Eliminar">
+                    </form>
+                </td>
+                <td>
+                    <select name="equipo" id="equipo">
+                        <option value="">Proyector 1</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+    <a href="index.html">Volver al Menu</a>
+</body>
+</html>

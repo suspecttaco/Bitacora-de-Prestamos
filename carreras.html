@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carreras y Grupos</title>
+</head>
+<body>
+    <h1>Registro de Carreras</h1>
+    
+
+    <table border="1" width="100%">
+        <thead >
+            <th>Informacion</th>
+            <th>Carreras registradas</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td width="50%">
+                    <form action="submit">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name">
+                        <br>
+                        <br>
+                        <label for="grupos">Añadir Grupo:</label>
+                        <input type="text" name="grupos" id="grupos">
+                        <input type="button" id="addGroup" value="Añadir">
+                        <input type="button" id="deleteGroup" value="Eliminar">
+                        <br>
+                        <br>
+                        <input type="button" id="save" value="Guardar">
+                        <input type="button" id="delete" value="Eliminar">
+                    </form>
+                </td>
+                <td>
+                    <select name="carreras" id="carreras">
+                        <option value="">Carrera 1</option>
+                        <option value="">Carrera 2</option>
+                        <option value="">Carrera 3</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+    <label><a href="index.html">Volver al menu</a></label>
+</body>
+</html>
